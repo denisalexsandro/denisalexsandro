@@ -1,0 +1,73 @@
+* {box-sizing: border-box;}
+body {
+    background-image: url(https://img.itdg.com.br/tdg/images/blog/uploads/2018/06/dicas-de-confeitaria.jpg)
+}
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 200px;   
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    border-radius: 15px
+}
+.topo {
+    background-color: rgba(226, 144, 51, 0.774)
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sobre:hover {
+    transition: 0.7s;
+    font-size: 26px;
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.850);
+    text-shadow: white 0.1em 0.1em 0.2em
+}
+
+.fotos {
+    width: 230px;
+    border-radius: 50%;
+    border: double 10px rgba(226, 144, 51);
+}
+.fotos:hover {
+    width: 280px;
+    transition: 1s;
+}
+
+.corpo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.direcao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: white 0.1em 0.1em 0.2em
+}
+.legendas {
+    text-align: center;
+    font-size: 38px;
+}
